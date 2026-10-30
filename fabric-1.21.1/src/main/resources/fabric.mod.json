@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanroom_soulgravestones",
+  "version": "${version}",
+  "name": "Soul Gravestones CleanRoom",
+  "description": "Player death inventory preservation with void recovery platforms and grave compasses.",
+  "authors": [
+    "CleanRoom Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cleanroom/minecraft_mod_ports"
+  },
+  "license": "MIT",
+  "icon": "assets/cleanroom_soulgravestones/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cleanroom.gravestones.fabric.SoulGravestonesFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20 <=1.21.3",
+    "java": ">=21"
+  }
+}
